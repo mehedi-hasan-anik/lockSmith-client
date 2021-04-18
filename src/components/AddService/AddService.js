@@ -19,7 +19,7 @@ const AddService = () => {
         }
        
        
-        fetch('http://localhost:8080/addEvent',{
+        fetch('https://cryptic-spire-90197.herokuapp.com/addEvent',{
             method:'POST',
             headers:{
                 'Content-Type' : 'application/json'

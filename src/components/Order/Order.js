@@ -22,7 +22,7 @@ const Order = () => {
             description:found.description
         }
 
-        fetch('http://localhost:8080/addOrder',{
+        fetch('https://cryptic-spire-90197.herokuapp.com/addOrder',{
             method:"POST",
             headers:{'Content-Type' : 'application/json'},
             body:JSON.stringify(order)

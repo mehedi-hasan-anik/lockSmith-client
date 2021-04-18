@@ -4,7 +4,7 @@ import ReviewHomeCard from '../ReviewHomeCard/ReviewHomeCard';
 const ReviewHome = () => {
     const [reviewHome,setReviewHome]=useState([])
      useEffect(()=>{
-         fetch('http://localhost:8080/getReview')
+         fetch('https://cryptic-spire-90197.herokuapp.com/getReview')
          .then(res=>res.json())
          .then(data=>setReviewHome(data))
      },[])

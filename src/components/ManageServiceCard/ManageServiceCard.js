@@ -3,7 +3,7 @@ import React from 'react';
 const ManageServiceCard = ({event}) => {
   
     const handleDelete = id =>{
-        fetch(`http://localhost:8080/delete/${id}`,{
+        fetch(`https://cryptic-spire-90197.herokuapp.com/delete/${id}`,{
             method:'DELETE',
             headers:{
                 'Content-Type': 'application/json'

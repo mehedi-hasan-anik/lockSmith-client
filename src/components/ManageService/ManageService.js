@@ -7,7 +7,7 @@ const ManageService = () => {
     const [loading,setLoading]=useState(false);
 
     useEffect(()=>{
-        fetch('http://localhost:8080/servicePhoto')
+        fetch('https://cryptic-spire-90197.herokuapp.com/servicePhoto')
         .then(res=>res.json(res))
         .then(data=>{
             setServicePhoto(data)

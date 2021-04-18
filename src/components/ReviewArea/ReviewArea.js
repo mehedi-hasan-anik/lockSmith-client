@@ -15,7 +15,7 @@ const ReviewArea = () => {
             description:data.description,
         }
        
-        fetch('http://localhost:8080/addReview',{
+        fetch('https://cryptic-spire-90197.herokuapp.com/addReview',{
             method:'POST',
             headers:{
                 'Content-Type' : 'application/json'

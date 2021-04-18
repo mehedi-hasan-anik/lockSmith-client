@@ -9,7 +9,7 @@ const MakeAddmin = () => {
         const addData = {
             email:data.email,
         }
-        fetch('http://localhost:8080/addEmail',{
+        fetch('https://cryptic-spire-90197.herokuapp.com/addEmail',{
             method:'POST',
             headers:{
                 'Content-Type' : 'application/json'

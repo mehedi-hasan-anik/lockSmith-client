@@ -9,13 +9,13 @@ const OrderList = () => {
     const [user,setUser,servicePhoto,setServicePhoto,paymentError,setPaymentError,paymentSuccess,setPaymentSuccess]=useContext(userContext);
 
     useEffect(()=>{
-        fetch('http://localhost:8080/getOrder?email='+user.email)
+        fetch('https://cryptic-spire-90197.herokuapp.com/getOrder?email='+user.email)
         .then(res=>res.json())
         .then(data=>setBookings(data))
     },[])
 
     useEffect(()=>{
-        fetch('http://localhost:8080/getAllOrder')
+        fetch('https://cryptic-spire-90197.herokuapp.com/getAllOrder')
         .then(res=>res.json())
         .then(data=>setAllBookings(data))
     },[])
