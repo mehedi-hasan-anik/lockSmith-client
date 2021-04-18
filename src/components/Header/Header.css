@@ -1,0 +1,25 @@
+.full-header-area{
+    background: blue;
+    color: #fff;
+}
+.logo-area{
+
+}
+.nav-area{
+
+}
+.nav-area ul{
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+.nav-area ul li{
+  display: inline-block;
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  padding: 20px;
+  margin-right: 10px;
+}
