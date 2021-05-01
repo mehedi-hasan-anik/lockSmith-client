@@ -3,8 +3,7 @@ firstly I create a repository using command 'npx create-react-app react-router' 
 Then build the website.
 
 # Description
-This is a single page application with used React Router, firebase based hosting site. 
-Here you can buy locker and repair locker.
+This is a very useful website. Users can get  this service by card    payment and also can give reviews very easily. In dashboard two kinds of access as user or admin. Admin can add new service, can update or delete services, and can update service order status. 
 
 ## Added
 - react router
@@ -26,5 +25,5 @@ Here you can buy locker and repair locker.
 
 # Repository link & live link
 - https://luxury-living-cde62.web.app/
-- https://github.com/Porgramming-Hero-web-course/complete-website-client-mehedi-hasan-anik
--https://github.com/Porgramming-Hero-web-course/complete-website-server-mehedi-hasan-anik
+- https://github.com/mehedi-hasan-anik/lockSmith-client
+- https://github.com/mehedi-hasan-anik/lockSmith-server
