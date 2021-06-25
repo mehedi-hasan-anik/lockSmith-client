@@ -1,0 +1,13 @@
+.cart2-area{
+    box-shadow: 10px 10px 10px solid red;
+}
+.cart2-area h3{
+    margin-top: 10px;
+    color: #FFC800;
+    text-transform: uppercase;
+}
+.cart2-area img{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}

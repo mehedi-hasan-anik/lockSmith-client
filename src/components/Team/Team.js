@@ -3,6 +3,7 @@ import TeamCard from '../TeamCard/TeamCard';
 import First from '../image/first.jpg';
 import Second from '../image/second.jpg';
 import Third from '../image/third.jpg';
+import './Team.css';
 
 const Team = () => {
     const ourTeam=[
@@ -27,13 +28,15 @@ const Team = () => {
 
     ]
     return (
+        <div className="team-area">
         <div className="container">
-        <h2 className="text-center text-primary" style={{margin:'70px 0px'}}> Our Team </h2>
+        <h2 className="text-center" style={{padding:'100px 0px', fontSize:'50px',fontWeight:'700'}}> People Behind <span style={{color:'#FFC800'}}>Our Services</span></h2>
         <div className="row">
         {
               ourTeam.map(event=> <div className="col-lg-4 col-md-6 col-sm-12 col-area"><TeamCard event={event}></TeamCard></div>)
         }
         </div>
+    </div>
     </div>
     );
 };

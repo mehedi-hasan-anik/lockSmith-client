@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { userContext } from '../../App';
 import Photo from '../Photo/Photo';
+import './ServiceArea.css';
 
 const ServiceArea = () => {
     // const [servicePhoto,setServicePhoto]=useState([]);
@@ -20,9 +21,10 @@ const ServiceArea = () => {
     console.log("result",homeResult);
 
     return (
-        <div className="container" style={{marginTop:'100px'}}>
+        <div className="main-service-area">
+        <div className="container">
 
-            <h2 className="text-center mb-5 text-primary">Service</h2>
+            <h2 className="text-center mb-5" style={{fontSize:'50px',fontWeight:'700', color:"#FFC800"}}>SERVICES</h2>
            
           {
               loading &&  <div className="row">
@@ -33,6 +35,7 @@ const ServiceArea = () => {
            
           }
        
+       </div>
        </div>
     );
 };

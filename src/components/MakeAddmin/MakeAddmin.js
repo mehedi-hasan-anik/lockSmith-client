@@ -21,13 +21,15 @@ const MakeAddmin = () => {
         console.log('result',addData);
     }
     return (
+        <div className="main-makeAdmin-area" style={{background:'#DCDCDC', padding:'250px 0px'}}>
         <div className="container">
            <div style={{margin:'0 auto',width:'100%',maxWidth:'300px'}}>
                 <form onSubmit={handleSubmit(onSubmit)} >
-                        <input name="email" defaultValue="" ref={register} placeholder="email" />
-                        <input type="submit" />
+                        <input name="email" defaultValue="" ref={register} placeholder="email" style={{padding:'5px 10px', borderRadius:'5px 0px 0px 5px'}}/>
+                        <input type="submit" style={{background:'#FFC800',padding:'5px 10px', borderRadius:'0px 5px 5px 0px'}} />
                 </form>
            </div>
+        </div>
         </div>
     );
 };

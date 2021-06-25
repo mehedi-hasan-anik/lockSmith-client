@@ -1,0 +1,14 @@
+.manageCardArea{
+
+}
+.manageCardArea h5{
+    color: #FFC800;
+}
+.manageCardArea button{
+    border-radius: 10px;
+    background: #FFC800;
+}
+.manageCardArea button:hover{
+    background: #090955;
+    color: white;
+}

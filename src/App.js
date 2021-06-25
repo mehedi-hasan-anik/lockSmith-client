@@ -43,13 +43,13 @@ function App() {
           <Route path="/home">
               <Home></Home>
           </Route>
-          <Route path="/about">
+          <Route path="/review">
               <About></About>
           </Route>
           <PrivateRoute path="/admin">
               <Admin></Admin>
           </PrivateRoute>
-          <Route path="/projects">
+          <Route path="/services">
               <Projects></Projects>
           </Route>
           <Route path="/login">

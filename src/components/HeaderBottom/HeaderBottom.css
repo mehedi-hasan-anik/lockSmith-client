@@ -1,0 +1,40 @@
+.headerBottom-area{
+  background: url(../image/Omaha+Locksmith.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 250px 10px;
+}
+.headerBottom-area{
+   
+}
+.inner-text-area-left h1{
+    
+}
+.inner-text-area-left button{
+    background: #FFC800;
+    padding: 3px 15px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.text-area{
+    color: aliceblue;
+}
+.text-area h1{
+    color: aliceblue;
+    
+}
+.text-area p{
+    
+}
+.text-area button{
+
+}
+.text-area button:hover{
+    color: white;
+    background: rgb(9, 9, 85);
+}
+.inner-text-area{
+    
+}

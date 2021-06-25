@@ -5,6 +5,10 @@ import firebaseConfig from './firebase.config';
 import './Login.css';
 import { userContext } from '../../App';
 import { useHistory, useLocation } from 'react-router';
+import ReactDOM from 'react-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faGooglePlus } from '@fortawesome/free-brands-svg-icons';
 
 
 firebase.initializeApp(firebaseConfig);
@@ -45,7 +49,7 @@ const Login = () => {
     return (
         <div className="container">
         <div className="show-area" style={{width:'300px',margin:'0 auto'}}>
-            <button onClick={handleGoogle} style={{marginTop:'20px'}}>Login with google</button>
+            <button onClick={handleGoogle} style={{marginTop:'20px'}}><FontAwesomeIcon icon={faGooglePlus} /> Login with google</button>
             <h1>{user.name}</h1>
             <h2>{user.email}</h2>
             <img src={user.photo} alt=""/>

@@ -1,44 +1,48 @@
 import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import Logo from '../image/locksmith-showing-a-padlock-and-keyhole-141ld.png';
 
 const Header = () => {
     return (
-        <div className="container">
-        <div className="row full-header-area">
-             <div className="col-lg-4 col-md-12 col-sm-12 logo-area">
-                  <h1 style={{textAlign:'center'}}>Lock Smith</h1>
-             </div>
-             <div className="col-lg-8 col-md-12 col-sm-12 nav-area">
-                 <div>
-                        <nav>
-                            <ul>
-                                <li>
-                                <Link to="/home" style={{color:'#fff', fontSize:'20px'}}>Home</Link>
-                                </li>
-                                <li>
-                                <Link to="/about" style={{color:'#fff', fontSize:'20px'}}>About Us</Link>
-                                </li>
-                                <li>
-                                <Link to="/Projects" style={{color:'#fff', fontSize:'20px'}}>Projects</Link>
-                                </li>
-                                <li>
-                                <Link to="/contact" style={{color:'#fff', fontSize:'20px'}}>Contact</Link>
-                                </li>
-                                <li>
-                                <Link to="/admin" style={{color:'#fff', fontSize:'20px'}}>Admin</Link>
-                                </li>
-                                <li>
-                                   
-                                   <Link to="/login" style={{color:'#fff', fontSize:'20px'}}>Login</Link>
-                                   
-                                </li>
-                            </ul>
-                      </nav>
-                 </div>
-             </div>
-        </div>
-    </div>
+        <div className="full-nav-area">
+        <nav class="navbar navbar-expand-lg   container">
+           <div class="container-fluid nav-full-area">
+               <a class="navbar-brand" href="#"><img src={Logo} alt="" style={{width:'60px', height:'30px'}} /></a>
+               <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                   <span  class="navbar-toggler-icon">
+                      <FontAwesomeIcon icon={faBars} className="nav-bar-icon" />
+                   </span>
+               </button>
+               <div class="collapse navbar-collapse navigation-area" id="navbarSupportedContent">
+                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                           <Link className="nav-link ms-3" to="/home">Home</Link>
+                       </li>
+                       <li class="nav-item">
+                           <Link className="nav-link ms-3" to="/review">Review</Link>
+                       </li>
+                       <li class="nav-item">
+                           <Link className="nav-link ms-3" to="/services">Services</Link>
+                       </li>
+                       <li class="nav-item">
+                           <Link className="nav-link ms-3" to="/contact">Contact</Link>
+                       </li>
+                       <li class="nav-item">
+                           <Link className="nav-link ms-3" to="/admin">Admin</Link>
+                       </li>
+                       <li class="nav-item">
+                           <Link className="nav-link ms-3" to="/login">Login</Link>
+                       </li>
+                      
+                   </ul>
+               
+               </div>
+           </div>
+     </nav>
+     </div>
     );
 };
 

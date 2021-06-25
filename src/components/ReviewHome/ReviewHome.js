@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ReviewHomeCard from '../ReviewHomeCard/ReviewHomeCard';
+import './ReviewHome.css';
 
 const ReviewHome = () => {
     const [reviewHome,setReviewHome]=useState([])
@@ -10,13 +11,15 @@ const ReviewHome = () => {
      },[])
      
     return (
+        <div className="review-area-main">
         <div className="container">
-            <h2 className="text-center text-primary" style={{margin:'70px 0px'}}> Testimonials </h2>
+            <h2 className="text-center" style={{padding:'50px 0px',fontSize:'50px',fontWeight:'700',color:"#FFC800"}}>   TESTIMONIALS </h2>
             <div className="row">
             {
                   reviewHome.map(event=> <div className="col-lg-4 col-md-6 col-sm-12 col-area"><ReviewHomeCard event={event}></ReviewHomeCard></div>)
             }
             </div>
+        </div>
         </div>
     );
 };

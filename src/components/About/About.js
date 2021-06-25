@@ -1,9 +1,11 @@
 import React from 'react';
+import ReviewHome from '../ReviewHome/ReviewHome';
+
 
 const About = () => {
     return (
         <div className="container">
-            <h1 className="text-center">This is about</h1>
+            <ReviewHome></ReviewHome>
         </div>
     );
 };

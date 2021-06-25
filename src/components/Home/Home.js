@@ -6,10 +6,11 @@ import ReviewHome from '../ReviewHome/ReviewHome';
 import ServiceArea from '../ServiceArea/ServiceArea';
 import Slider from '../Slider/Slider';
 import Team from '../Team/Team';
+import './Home.css'
 
 const Home = () => {
     return (
-        <div>
+        <div className="home-area"> 
             <HeaderBottom></HeaderBottom>
             <Slider></Slider>
             <ServiceArea></ServiceArea>

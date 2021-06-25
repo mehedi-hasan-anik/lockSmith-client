@@ -1,31 +1,31 @@
 .add-area{
-    
+    background: #DCDCDC;
+    padding: 150px 0px;
 }
-.inner-form{
+.inner-form-area{
     margin: 0 auto;
     width: 500px;
     border-radius: 10px;
     text-align: center;
     padding-top: 40px;
-    
 }
-.inner-form input{
-    margin-bottom: 10px;
+.inner-form-area form{
+   
 }
-.inner-form-input{
-
+.review-input{
+  
 }
-.inner-form-input input{
+.review-input input{
     width: 100%;
     margin-bottom: 10px;
     border-radius: 10px;
 }
-.inner-form-input input[type="submit"]{
+.review-input input[type="submit"]{
     width: 200px;
     margin: 0 auto;
     background: #FFC800;
 }
-.inner-form-input textarea{
+.review-input textarea{
     width: 100%;
     border-radius: 10px;
 }

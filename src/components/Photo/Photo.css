@@ -1,0 +1,13 @@
+.inner-cart-area{
+    padding: 10px;
+    border-radius: 10px;
+}
+.inner-cart-area button{
+    background: #FFC800;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+.inner-cart-area button:hover{
+    color: white;
+    background: #FFC800;
+}

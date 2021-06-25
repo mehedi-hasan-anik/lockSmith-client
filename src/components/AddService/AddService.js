@@ -49,20 +49,33 @@ const AddService = () => {
     }
     return (
         <div className="add-area">
+         <div className="container">
         <div className="inner-form">
              <form onSubmit={handleSubmit(onSubmit)}>
 
-                    <input name="title" defaultValue="" ref={register} placeholder="title" />
-                    <br/>
+                   <div className="inner-form-input">
+                       <input name="title" defaultValue="" ref={register} placeholder="title" />
+                   </div>
+
+                   <div className="inner-form-input">
+                       <input  name="price" defaultValue="" ref={register} placeholder="Price" />
+                   </div>
+
+                   <div className="inner-form-input">
+                       <input name="exampleRequired" type="file" onChange={handleImageUpload} />
+                   </div>
+                  
                     {/* <input  name="description" defaultValue="" ref={register}  placeholder="Author Name" /> */}
-                    <br/>
-                     <textarea name="description" id="" cols="30" rows="5" defaultValue="" ref={register}  placeholder="description"></textarea>
-                    <input  name="price" defaultValue="" ref={register} placeholder="Price" />
-                    <br/>
-                    <input name="exampleRequired" type="file" onChange={handleImageUpload} />
-                    <br/>
-                    <input type="submit" />
+                   
+                   <div className="inner-form-input">
+                       <textarea name="description" id="" cols="30" rows="5" defaultValue="" ref={register}  placeholder="description"></textarea>
+                   </div>
+
+                  <div className="inner-form-input">
+                       <input type="submit" />
+                  </div>
              </form>
+        </div>
         </div>
     </div>
     );

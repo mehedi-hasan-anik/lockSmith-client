@@ -48,7 +48,7 @@ const Footer = () => {
                     </ul>
                     <div className="mt-5">
                         <h6>Call now</h6>
-                        <button className="btn btn-primary">01700000000</button>
+                        <button className="btn" style={{background:'#FFC800'}}>01959109322</button>
                     </div>
                 </FooterCol>
             </div>

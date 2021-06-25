@@ -1,9 +1,10 @@
 import React from 'react';
+import ServiceArea from '../ServiceArea/ServiceArea';
 
 const Projects = () => {
     return (
-        <div className="container">
-            <h1 className="text-center">This is Projects</h1>
+        <div className="">
+            <ServiceArea></ServiceArea>
         </div>
     );
 };

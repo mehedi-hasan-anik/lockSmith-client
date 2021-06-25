@@ -1,0 +1,9 @@
+.card-area{
+    box-shadow: 5px 5px 30px grey;
+    border-radius: 20px;
+    padding: 10px;
+}
+.card-area h3{
+    color: #FFC800;
+    text-transform: uppercase;
+}

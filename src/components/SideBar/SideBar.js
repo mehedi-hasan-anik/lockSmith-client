@@ -29,26 +29,26 @@ const SideBar = () => {
                              {
                                  !found ? <div>
                                  <li>
-                                 <Link to="/orderlist" style={{ fontSize:'20px'}}>OrderList</Link>
+                                 <Link to="/orderlist" style={{ fontSize:'20px', color:'#FFC800'}}>OrderList</Link>
                                  </li>
                                  <li>
-                                 <Link to="/review" style={{ fontSize:'20px'}}>Review</Link>
+                                 <Link to="/review" style={{ fontSize:'20px', color:'#FFC800'}}>Review</Link>
                                  </li>
                               </div>: <div>
                                 <li>
-                                 <Link to="/orderlist" style={{ fontSize:'20px'}}>OrderList</Link>
+                                 <Link to="/orderlist" style={{ fontSize:'20px', color:'#FFC800'}}>OrderList</Link>
                                  </li>
                                  <li>
-                                 <Link to="/review" style={{ fontSize:'20px'}}>Review</Link>
+                                 <Link to="/review" style={{ fontSize:'20px', color:'#FFC800'}}>Review</Link>
                                  </li>
                                 <li>
-                                <Link to="/addService" style={{ fontSize:'20px'}}>Add Service</Link>
+                                <Link to="/addService" style={{ fontSize:'20px', color:'#FFC800'}}>Add Service</Link>
                                 </li>
                                 <li>
-                                <Link to="/makeAdmin" style={{ fontSize:'20px'}}>Make Admin</Link>
+                                <Link to="/makeAdmin" style={{ fontSize:'20px', color:'#FFC800'}}>Make Admin</Link>
                                 </li>
                                 <li>
-                                <Link to="/manageService" style={{ fontSize:'20px'}}>Manage Service</Link>
+                                <Link to="/manageService" style={{ fontSize:'20px', color:'#FFC800'}}>Manage Service</Link>
                                 </li>
                            </div>
                              }

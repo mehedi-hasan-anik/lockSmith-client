@@ -25,9 +25,9 @@ const OrderList = () => {
     
 
     return (
-        <div className="container">
+        <div className="container" style={{background:'#DCDCDC'}}>
             <h1 style={{textAlign:'center'}}>Service List </h1>
-            <h3 style={{textAlign:'center'}}>{user.name}</h3>
+            {/* <h3 style={{textAlign:'center'}}>{user.name}</h3> */}
             <div className="row">
                 {
                     found ?<div>

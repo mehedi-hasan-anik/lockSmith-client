@@ -1,11 +1,11 @@
 import React from 'react';
-import sell from '../image/5c255d41fc7cf04d49ca8aded4487520.jfif';
-import repair from '../image/handyman-repair-door-lock-workers-260nw-1164157879.webp';
-import keys from '../image/unnamed.jpg';
+import sell from '../image/5-things-a-residential-locksmith-can-do-for-you-2.jpg';
+import repair from '../image/Locksmith_scams.webp';
+import keys from '../image/locksmithing-2.jpg';
 
 const Slider = () => {
     return (
-        <div className="container mt-5">
+        <div className="container p-5">
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
