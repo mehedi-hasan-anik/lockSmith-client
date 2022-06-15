@@ -1,40 +1,34 @@
-.full-nav-area{
-  background: #FFC800;
+.full-nav-area {
+  background: #fb5013;
   color: white;
 }
 
-.nav-full-area{
- 
+.nav-full-area {
 }
-.nav-full-area button{
-
- border: 1px solid white;
+.nav-full-area button {
+  border: 1px solid white;
 }
-.nav-bar-icon{
-color: white;
-
+.nav-bar-icon {
+  color: white;
 }
-.nav-full-area a{
- color: white;
+.nav-full-area a {
+  color: white;
 }
-.navigation-area{
-  
+.navigation-area {
 }
-.navigation-area ul{
-  
+.navigation-area ul {
 }
-.navigation-area ul li{
-  
+.navigation-area ul li {
 }
 
-.navigation-area ul li .nav-link{
+.navigation-area ul li .nav-link {
   font-size: 18px;
   padding: 5px 20px;
   color: #fff;
   border: 1px solid transparent;
   border-radius: 10px;
 }
-.navigation-area ul li .nav-link:hover{
+.navigation-area ul li .nav-link:hover {
   color: white;
   border: 1px solid white;
   border-radius: 10px;
