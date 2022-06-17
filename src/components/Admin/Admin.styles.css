@@ -1,0 +1,12 @@
+.side-bar-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 100%;
+  background: #808080;
+  padding: 15px;
+}
+.side-bar-list li {
+  padding: 5px 0px;
+  cursor: pointer;
+}
