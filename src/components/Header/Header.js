@@ -1,7 +1,7 @@
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import Logo from "../image/locksmith-showing-a-padlock-and-keyhole-141ld.png";
+// import Logo from "../image/locksmith-showing-a-padlock-and-keyhole-141ld.png";
 import "./Header.css";
 
 const Header = () => {
@@ -10,7 +10,10 @@ const Header = () => {
       <nav class="navbar navbar-expand-lg   container">
         <div class="container-fluid nav-full-area">
           <Link class="navbar-brand" to="/">
-            <img src={Logo} alt="" style={{ width: "60px", height: "30px" }} />
+            {/* <img src={Logo} alt="" style={{ width: "60px", height: "30px" }} /> */}
+            <h1 className="logo">
+              L<span>oc</span>kS<span>mi</span>th
+            </h1>
           </Link>
           <button
             class="navbar-toggler"

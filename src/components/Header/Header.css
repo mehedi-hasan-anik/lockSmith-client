@@ -1,9 +1,15 @@
 .full-nav-area {
-  background: #fb5013;
+  background: #ffc800;
   color: white;
 }
+.logo {
+  margin: 0;
+  padding: 0;
+}
 
-.nav-full-area {
+.logo span {
+  /* color: #00b1d2; */
+  color: #441e59;
 }
 .nav-full-area button {
   border: 1px solid white;
@@ -13,12 +19,6 @@
 }
 .nav-full-area a {
   color: white;
-}
-.navigation-area {
-}
-.navigation-area ul {
-}
-.navigation-area ul li {
 }
 
 .navigation-area ul li .nav-link {

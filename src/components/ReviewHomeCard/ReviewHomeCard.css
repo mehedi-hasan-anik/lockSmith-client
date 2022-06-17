@@ -1,9 +1,12 @@
-.card-area{
-    box-shadow: 5px 5px 30px grey;
-    border-radius: 20px;
-    padding: 10px;
+.card-area {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  padding: 10px;
 }
-.card-area h3{
-    color: #FFC800;
-    text-transform: uppercase;
+.card-area h3 {
+  color: #ffc800;
+  text-transform: uppercase;
+}
+.details {
+  color: rgb(113, 108, 128);
 }

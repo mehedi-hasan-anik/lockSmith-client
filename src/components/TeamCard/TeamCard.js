@@ -1,15 +1,18 @@
-import React from 'react';
-import './TeamCard.css';
+import "./TeamCard.css";
 
-const TeamCard = ({event}) => {
-    return (
-        <div className="container card cart2-area pt-3 pb-5">
-            <img src={event.photo} alt="" className="img-fluid"/>
-            <h3>{event.name}</h3>
-           <p>{event.email}</p>
-           <p>{event.about}</p>
-         </div>
-    );
+const TeamCard = ({ event }) => {
+  return (
+    <div className="container">
+      <div className="single-card">
+        <img src={event.photo} alt="" className="img-fluid" />
+        <div className="single-card-details">
+          <h3>{event.name}</h3>
+          <strong>{event.email}</strong>
+          <p>{event.about}</p>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default TeamCard;

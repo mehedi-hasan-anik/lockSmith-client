@@ -1,13 +1,25 @@
-.inner-cart-area{
-    padding: 10px;
-    border-radius: 10px;
+.inner-cart-area {
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.inner-cart-area button{
-    background: #FFC800;
-    border-radius: 10px;
-    border: 1px solid blue;
+.inner-cart-area img {
+  border-radius: 10px 10px 0px 0px;
 }
-.inner-cart-area button:hover{
-    color: white;
-    background: #FFC800;
+.button-text-wrapper {
+  padding: 10px;
+}
+.inner-cart-area button {
+  background: #ffc800;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 0px;
+  color: white;
+  width: 100%;
+}
+.inner-cart-area button:hover {
+  color: white;
+  background: #ffc800;
+}
+.details {
+  color: rgb(113, 108, 128);
 }
