@@ -1,6 +1,6 @@
 .single-card h3 {
   margin-top: 10px;
-  color: #ffc800;
+  color: #ff3b3e;
   text-transform: uppercase;
 }
 .single-card img {
@@ -14,11 +14,21 @@
 .single-card {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
+  background: #1b1b27;
 }
 .single-card-details {
   padding: 12px;
 }
 .single-card-details p {
-  color: rgb(113, 108, 128);
+  color: white;
   margin-top: 10px;
+}
+.single-card-details strong {
+  color: white;
+}
+.single-card:hover {
+  background: #ff3b3e;
+}
+.single-card:hover h3 {
+  color: white;
 }

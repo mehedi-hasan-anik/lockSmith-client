@@ -19,7 +19,7 @@ const ReviewHome = () => {
             padding: "30px 0px",
             fontSize: "50px",
             fontWeight: "700",
-            color: "#FFC800",
+            color: "#FF3B3E",
             wordWrap: "break-word",
           }}
         >

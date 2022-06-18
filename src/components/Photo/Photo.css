@@ -1,6 +1,7 @@
 .inner-cart-area {
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: #1b1b27;
 }
 .inner-cart-area img {
   border-radius: 10px 10px 0px 0px;
@@ -9,17 +10,27 @@
   padding: 10px;
 }
 .inner-cart-area button {
-  background: #ffc800;
+  background: white;
   border-radius: 10px;
   border: none;
   padding: 8px 0px;
-  color: white;
+  color: #ff3b3e;
   width: 100%;
+  font-weight: 500;
 }
 .inner-cart-area button:hover {
   color: white;
-  background: #ffc800;
+  background: #ff3b3e;
 }
 .details {
-  color: rgb(113, 108, 128);
+  color: white;
+}
+.button-text-wrapper h5 {
+  color: #ff3b3e;
+}
+.inner-cart-area p {
+  color: white;
+}
+.inner-cart-area strong {
+  color: #ff3b3e;
 }

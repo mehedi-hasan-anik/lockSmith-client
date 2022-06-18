@@ -8,14 +8,8 @@ const HeaderBottom = () => {
           <div className="col-md-6 text-area ">
             <div className="text-area-left">
               <div className="inner-text-area-left">
-                <h1
-                  style={{
-                    color: "#FFC800",
-                    fontSize: "60px",
-                    paddingBottom: "20px",
-                  }}
-                >
-                  Hello and Welcome
+                <h1 className="hero-title">
+                  Hello and <span>Welcome</span>
                 </h1>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and

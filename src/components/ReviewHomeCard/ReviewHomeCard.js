@@ -7,7 +7,7 @@ const ReviewHomeCard = ({ event }) => {
         <div className="card card-area mt-3" style={{ borderRadius: "10px" }}>
           <h3>{event.name}</h3>
           <strong>{event.company}</strong>
-          <p className="details">{event.description}</p>
+          <p>{event.description}</p>
         </div>
       </div>
     </div>

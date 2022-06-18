@@ -1,10 +1,11 @@
 .headerBottom-area {
-  background: url(../image/Omaha+Locksmith.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.575)),
+    url(../image/Omaha+Locksmith.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
-  padding: 250px 10px;
+  padding: 200px 10px;
 }
 @media only screen and (max-width: 600px) {
   .headerBottom-area {
@@ -18,13 +19,14 @@
 }
 
 .inner-text-area-left button {
-  background: #ffc800;
-  padding: 3px 15px;
+  background: #fff;
+  padding: 8px 26px;
   border-radius: 25px;
-  font-size: 25px;
+  font-size: 18px;
   border: none;
-  color: white;
+  color: #ff3b3e;
   transition: 0.4s;
+  font-weight: 500;
 }
 .text-area {
   color: aliceblue;
@@ -35,5 +37,14 @@
 
 .text-area button:hover {
   color: white;
-  background: #ffc800;
+  background: #ff3b3e;
+}
+.hero-title {
+  color: white;
+  font-size: 60px;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+.hero-title span {
+  color: #ff3b3e;
 }

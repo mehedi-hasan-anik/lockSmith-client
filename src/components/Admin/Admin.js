@@ -77,13 +77,13 @@ const Admin = () => {
               <>
                 <li
                   onClick={handleOrder}
-                  style={{ fontSize: "20px", color: "#FFC800" }}
+                  style={{ fontSize: "20px", color: "#FF3B3E" }}
                 >
                   OrderList
                 </li>
                 <li
                   onClick={handleReview}
-                  style={{ fontSize: "20px", color: "#FFC800" }}
+                  style={{ fontSize: "20px", color: "#FF3B3E" }}
                 >
                   Review
                 </li>
@@ -92,31 +92,31 @@ const Admin = () => {
               <>
                 <li
                   onClick={handleOrder}
-                  style={{ fontSize: "20px", color: "#FFC800" }}
+                  style={{ fontSize: "20px", color: "#FF3B3E" }}
                 >
                   OrderList
                 </li>
                 <li
                   onClick={handleReview}
-                  style={{ fontSize: "20px", color: "#FFC800" }}
+                  style={{ fontSize: "20px", color: "#FF3B3E" }}
                 >
                   Review
                 </li>
                 <li
                   onClick={handleAddService}
-                  style={{ fontSize: "20px", color: "#FFC800" }}
+                  style={{ fontSize: "20px", color: "#FF3B3E" }}
                 >
                   Add Service
                 </li>
                 <li
                   onClick={handleMakeAdmin}
-                  style={{ fontSize: "20px", color: "#FFC800" }}
+                  style={{ fontSize: "20px", color: "#FF3B3E" }}
                 >
                   Make Admin
                 </li>
                 <li
                   onClick={handleManageService}
-                  style={{ fontSize: "20px", color: "#FFC800" }}
+                  style={{ fontSize: "20px", color: "#FF3B3E" }}
                 >
                   Manage Service
                 </li>

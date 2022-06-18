@@ -24,12 +24,13 @@
 .inner-form-input input[type="submit"] {
   width: 200px;
   margin: 0 auto;
-  background: #ffc800;
+  background: #ff3b3e;
   border: none;
   outline: none;
   padding: 8px 5px;
   color: white;
   margin-top: 10px;
+  font-weight: 500;
 }
 .inner-form-input textarea {
   width: 100%;

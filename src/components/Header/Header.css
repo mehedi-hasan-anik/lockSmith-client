@@ -1,6 +1,6 @@
 .full-nav-area {
-  background: #ffc800;
-  color: white;
+  background: #ffe9e9;
+  color: #ff3b3e;
 }
 .logo {
   margin: 0;
@@ -12,24 +12,25 @@
   color: #441e59;
 }
 .nav-full-area button {
-  border: 1px solid white;
+  border: 1px solid #ff3b3e;
 }
 .nav-bar-icon {
-  color: white;
+  color: #ff3b3e;
 }
 .nav-full-area a {
-  color: white;
+  color: #ff3b3e;
 }
 
 .navigation-area ul li .nav-link {
   font-size: 18px;
+  font-weight: 500;
   padding: 5px 20px;
-  color: #fff;
+  color: #000;
   border: 1px solid transparent;
   border-radius: 10px;
 }
 .navigation-area ul li .nav-link:hover {
-  color: white;
-  border: 1px solid white;
+  color: #ff3b3e;
+  border: 1px solid #ff3b3e;
   border-radius: 10px;
 }

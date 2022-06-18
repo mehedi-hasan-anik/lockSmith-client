@@ -1,16 +1,29 @@
 .manageCardArea {
+  background: #1b1b27;
 }
 .manageCardArea h5 {
-  color: #ffc800;
+  color: #ff3b3e;
+  margin-top: 10px;
+}
+.manageCardArea p {
+  color: white;
 }
 .manageCardArea button {
   border-radius: 10px;
-  background: #ffc800;
+  background: #ff3b3e;
   border: none;
   outline: none;
   padding: 8px 0px;
   color: white;
+  font-weight: 500;
+  width: 100%;
 }
 .manageCardArea button:hover {
   color: white;
+}
+.manageCardArea strong {
+  color: #ff3b3e;
+}
+.manage-card-details {
+  padding: 10px;
 }

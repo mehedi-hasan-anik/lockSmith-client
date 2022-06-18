@@ -1,5 +1,6 @@
 .contact {
-  background: url(../image/lock-1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.575)),
+    url(../image/lock-1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,19 +21,20 @@
   padding-top: 10px;
 }
 .form-group input[type="submit"] {
-  background: #ffc800;
   width: 100%;
   max-width: 300px;
   border-radius: 20px;
   border: none;
   outline: none;
-  color: white;
   padding: 8px 0px;
-}
-.form-group input[type="submit"]:hover {
+  font-weight: 500;
   color: white;
+  background: #ff3b3e;
 }
+/* .form-group input[type="submit"]:hover {
+ 
+} */
 .section-header h2 {
-  color: #ffc800;
+  color: #ff3b3e;
   font-size: 40px;
 }

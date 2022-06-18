@@ -1,8 +1,10 @@
-.show-area{
-    margin: 0 auto;
+.show-area {
+  margin: 0 auto;
 }
-.show-area button{
-    border-radius: 10px;
-    background: #FFC800;
-    padding: 10px 20px;
+.show-area button {
+  border-radius: 25px;
+  background: #ff3b3e;
+  padding: 10px 20px;
+  color: white;
+  border: none;
 }

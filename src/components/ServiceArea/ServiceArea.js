@@ -25,7 +25,7 @@ const ServiceArea = () => {
       <div className="container">
         <h2
           className="text-center mb-5"
-          style={{ fontSize: "50px", fontWeight: "700", color: "#FFC800" }}
+          style={{ fontSize: "50px", fontWeight: "700", color: "#FF3B3E" }}
         >
           SERVICES
         </h2>

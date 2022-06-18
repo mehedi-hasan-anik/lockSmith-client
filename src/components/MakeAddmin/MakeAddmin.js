@@ -36,9 +36,11 @@ const MakeAddmin = () => {
             <input
               type="submit"
               style={{
-                background: "#FFC800",
+                background: "#FF3B3E",
                 padding: "5px 10px",
                 borderRadius: "0px 5px 5px 0px",
+                color: "white",
+                fontWeight: "500",
               }}
             />
           </form>
