@@ -20,13 +20,14 @@ const ReviewHome = () => {
             fontSize: "50px",
             fontWeight: "700",
             color: "#FFC800",
+            wordWrap: "break-word",
           }}
         >
           TESTIMONIALS
         </h2>
         <div className="row">
           {reviewHome.map((event) => (
-            <div className="col-lg-4 col-md-6 col-sm-12 col-area">
+            <div className="col-lg-4 col-md-6 col-sm-12  col-area">
               <ReviewHomeCard event={event}></ReviewHomeCard>
             </div>
           ))}

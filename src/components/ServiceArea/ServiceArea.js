@@ -33,7 +33,7 @@ const ServiceArea = () => {
         {loading && (
           <div className="row">
             {homeResult.map((event) => (
-              <div className="col-lg-4 col-md-6 col-sm-12 col-area">
+              <div className="col-lg-4 col-md-6 col-sm-12 pb-4 col-area">
                 <Photo event={event}></Photo>
               </div>
             ))}

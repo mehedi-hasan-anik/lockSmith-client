@@ -6,6 +6,16 @@
   height: auto;
   padding: 250px 10px;
 }
+@media only screen and (max-width: 600px) {
+  .headerBottom-area {
+    background: url(../image/Omaha+Locksmith.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 100px 10px;
+  }
+}
 
 .inner-text-area-left button {
   background: #ffc800;

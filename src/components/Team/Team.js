@@ -37,7 +37,7 @@ const Team = () => {
         </h2>
         <div className="row">
           {ourTeam.map((event) => (
-            <div className="col-lg-4 col-md-6 col-sm-12 col-area">
+            <div className="col-lg-4 col-md-6 col-sm-12 pb-4 col-area">
               <TeamCard event={event}></TeamCard>
             </div>
           ))}

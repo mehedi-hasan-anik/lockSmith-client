@@ -1,31 +1,41 @@
-.add-area{
-    background: #DCDCDC;
-    padding: 150px 0px;
+.add-area {
+  background: #f8f8f8;
+  padding: 150px 0px;
 }
-.inner-form-area{
-    margin: 0 auto;
-    width: 500px;
-    border-radius: 10px;
-    text-align: center;
-    padding-top: 40px;
+.inner-form-area {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 40px;
 }
-.inner-form-area form{
-   
+.inner-form-area form {
 }
-.review-input{
-  
+.review-input {
 }
-.review-input input{
-    width: 100%;
-    margin-bottom: 10px;
-    border-radius: 10px;
+.review-input input {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(113, 108, 128);
+  outline: none;
+  padding: 5px 5px;
 }
-.review-input input[type="submit"]{
-    width: 200px;
-    margin: 0 auto;
-    background: #FFC800;
+.review-input input[type="submit"] {
+  width: 200px;
+  margin: 0 auto;
+  background: #ffc800;
+  border: none;
+  outline: none;
+  padding: 8px 5px;
+  color: white;
+  margin-top: 10px;
 }
-.review-input textarea{
-    width: 100%;
-    border-radius: 10px;
+.review-input textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgb(113, 108, 128);
+  outline: none;
+  padding: 5px 5px;
 }
