@@ -55,7 +55,7 @@ const Header = () => {
               </li>
               <li class="nav-item">
                 <Link className="nav-link ms-3" to="/admin">
-                  Admin
+                  Dashboard
                 </Link>
               </li>
               <li class="nav-item">
