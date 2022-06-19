@@ -10,6 +10,7 @@ const Home = () => {
   return (
     <div className="home-area">
       <HeaderBottom></HeaderBottom>
+
       {/* <Slider></Slider> */}
       <ServiceArea></ServiceArea>
       <ReviewHome></ReviewHome>

@@ -25,7 +25,9 @@ const ManageServiceCard = ({ event }) => {
             Price: <strong>{event.price}</strong>
           </p>
           {/* <button onClick={()=>handleCheckOut(event._id)} style={{background:'blue', color:'#fff'}}>Buy Now</button> */}
-          <button onClick={() => handleDelete(event._id)}>Delete</button>
+          <div className="btn-wrapper">
+            <button onClick={() => handleDelete(event._id)}>Delete</button>
+          </div>
         </div>
       </div>
     </div>

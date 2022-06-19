@@ -9,7 +9,8 @@
 }
 @media only screen and (max-width: 600px) {
   .headerBottom-area {
-    background: url(../image/Omaha+Locksmith.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.575)),
+      url(../image/Omaha+Locksmith.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

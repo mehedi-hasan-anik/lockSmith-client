@@ -22,7 +22,9 @@ const Photo = ({ event }) => {
           <p>
             Price: <strong>${event.price}</strong>
           </p>
-          <button onClick={() => handleCheckOut(event._id)}>Get Now</button>
+          <div className="btn-wrapper">
+            <button onClick={() => handleCheckOut(event._id)}>Get Now</button>
+          </div>
         </div>
       </div>
     </div>

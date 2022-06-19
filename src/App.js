@@ -40,7 +40,9 @@ function App() {
       ]}
     >
       <Router>
-        <Header></Header>
+        <div className="header-wrapper">
+          <Header></Header>
+        </div>
 
         <Switch>
           <Route path="/home">

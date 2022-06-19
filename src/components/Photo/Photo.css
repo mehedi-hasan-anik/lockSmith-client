@@ -9,13 +9,17 @@
 .button-text-wrapper {
   padding: 20px;
 }
+.btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
 .inner-cart-area button {
   background: white;
   border-radius: 10px;
   border: none;
-  padding: 8px 0px;
+  padding: 7px 30px;
+  border-radius: 25px;
   color: #ff3b3e;
-  width: 100%;
   font-weight: 500;
 }
 .inner-cart-area button:hover {

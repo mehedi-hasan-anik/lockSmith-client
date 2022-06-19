@@ -1,5 +1,9 @@
 .manageCardArea {
   background: #1b1b27;
+  border-radius: 10px;
+}
+.manageCardArea img {
+  border-radius: 10px 10px 0px 0px;
 }
 .manageCardArea h5 {
   color: #ff3b3e;
@@ -8,18 +12,23 @@
 .manageCardArea p {
   color: white;
 }
+.btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
 .manageCardArea button {
   border-radius: 10px;
-  background: #ff3b3e;
+  background: white;
   border: none;
   outline: none;
-  padding: 8px 0px;
-  color: white;
+  padding: 7px 30px;
+  color: #ff3b3e;
   font-weight: 500;
-  width: 100%;
+  border-radius: 25px;
 }
 .manageCardArea button:hover {
   color: white;
+  background: #ff3b3e;
 }
 .manageCardArea strong {
   color: #ff3b3e;
